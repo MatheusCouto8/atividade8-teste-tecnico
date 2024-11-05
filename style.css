@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    background-color: rgb(73, 73, 73);
+    width: 65rem;
+    height: 40rem;
+    display: flex;
+    position: absolute;
+    left: 22%;  
+    top: 8rem;
+    z-index: 9999;
+    border-radius: 20px;
+    background: url(https://s3-alpha-sig.figma.com/img/d906/82dd/87eb4b96a94fd192c8002eb13944427f?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KHAmgdRqwihvdTSu-hKwrsbrxx~TwBXrypNiTkBqyR0RK3Kr1aTCfC7xGbF-WvAZcqHyp1EvJhvW4JiokQ6~Dt0RCnaXZGxXBVVfotWnuNTZ3ppOZMRPDRGgXY4YO8PrlgzNdmUBIVmjDyCyCaKRqk6aMAbBrjdL-y5ViZTlS-y1ITk1mBJ~5Uv0U3sZbbynFVEUTDoDp-ZmcULZGIB2ITG4d6T504AR~NkrcRrM9zbMUgb~yjZhKAW4~76tITPKB12YFN8yMV8onpm7XXK5o91R9VR61-q2YfFb7Btjz4OMYci6SKWyVdR0tATDqHuzd92f5sDIEjR-uS6wcMUZvQ__);
+    opacity: 0.4;
+}
+
+.circle1 {
+    background: linear-gradient(to top, rgb(255, 251, 0), rgb(255, 123, 0));
+    border-radius: 300px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    bottom: 50px;
+}
+
+.circle2 {
+    background: linear-gradient(to top, rgb(132, 0, 165), rgb(225, 0, 255));
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    left: 800px;
+    bottom: 660px;
+}
+
+.circle3 {
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(38, 101, 117));
+    border-radius: 300px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 850px;
+    bottom: 200px;
+}
+
+.circle4 {
+    background: linear-gradient(to bottom, rgb(255, 0, 128), rgb(255, 27, 152));
+    border-radius: 300px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 1201px;
+    bottom: 300px;
+}
